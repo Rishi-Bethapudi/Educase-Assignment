@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ],
+  "env": {
+    "PORT": "3000",
+    "DB_HOST": "193.203.184.7",
+    "DB_USER": "u904992179_mini",
+    "DB_PASSWORD": "Prempaisa@1",
+    "DB_DATABASE": "u904992179_mini"
+  }
+}

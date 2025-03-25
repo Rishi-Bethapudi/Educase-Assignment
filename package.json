@@ -1,15 +1,22 @@
 {
   "name": "school-management",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "School Management API using Node.js, Express, Sequelize, and MySQL",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "school",
+    "management",
+    "API",
+    "Node.js",
+    "Express",
+    "MySQL"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
@@ -17,5 +24,8 @@
     "express": "^4.21.2",
     "mysql2": "^3.14.0",
     "sequelize": "^6.37.6"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
